@@ -12,8 +12,8 @@ on:
   workflow_dispatch:
     inputs:
       title:
-      description: 'example input for title'
-      required: true
+        description: 'example input for title'
+        required: true
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
